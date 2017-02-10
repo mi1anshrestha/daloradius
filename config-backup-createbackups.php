@@ -46,7 +46,7 @@
 	isset($_POST['proxys']) ? $daloproxysTable = $_POST['proxys'] : $daloproxysTable = 'yes';
 	isset($_POST['realms']) ? $dalorealmsTable = $_POST['realms'] : $dalorealmsTable = 'yes';
 	
-	isset($_POST['billingpaypal']) ? $dalobillingpyapalTable = $_POST['billingpaypal'] : $dalobillingpaypalTable = 'yes';
+	isset($_POST['billingpaypal']) ? $dalobillingpaypalTable = $_POST['billingpaypal'] : $dalobillingpaypalTable = 'yes';
 	isset($_POST['userinfo']) ? $dalouserinfoTable = $_POST['userinfo'] : $dalouserinfoTable = 'yes';
 	
 	isset($_POST['billing_history']) ? $dalobillinghistoryTable = $_POST['billing_history'] : $dalobillinghistoryTable = 'yes';
